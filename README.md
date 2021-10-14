@@ -8,8 +8,7 @@ The purpose of this project is to analyze the employment database of  'Pewlett-H
 
 ## Resources and Software
 
-The following six CSV data files were provided at the beginning of the analysis:
-- departments.csv, employees.csv, salaries.csv, dept_emp.csv, dept_manager.csv, titles.csv are found inside of the Data folder.
+- The following six CSV data files were provided at the beginning of the analysis:departments.csv, employees.csv, salaries.csv, dept_emp.csv, dept_manager.csv, titles.csv are    found inside of the Data folder.
 - PostgreSQL 13.2
 - pgAdmin 4.50
 
