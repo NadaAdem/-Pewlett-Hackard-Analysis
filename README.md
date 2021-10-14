@@ -27,11 +27,13 @@ The table below shows the number of retirement age employees born between Januar
 ## Summary
 There will need to be 90,398 roles filled across all departments.Pewlett-Hackard will need to train new employees to fill these vacant positions.Beside, two high-level managment positions must be filled.
 
+```
 - The query to create this mentorship table is:
 SELECT COUNT(emp_no), title
 FROM mentorship_eligibility
 GROUP BY title
 ORDER BY count DESC;
+```
 
  ![This is an image](https://github.com/NadaAdem/-Pewlett-Hackard-Analysis/blob/main/Resources/mentorship_eligibility_COUNT.png)
  
