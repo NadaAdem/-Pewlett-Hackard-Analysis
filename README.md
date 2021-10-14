@@ -20,6 +20,19 @@ The table below shows the number of retirement age employees born between Januar
 
  ![This is an image](https://github.com/NadaAdem/-Pewlett-Hackard-Analysis/blob/main/Resources/retiring_titles.png)
 
+-The positions most affected by the incoming wave of retirement will be "Senior Engineer" and "Senior Staff."
+- A total of 90,398 employees are retiring or nearing retirement.
+-Two managers are retiring, which is significant because there are only nine current managers.
+- 1,549 current employees born between January 1, 1965 and December 31, 1965 are eligible to participate in the mentorship program.
 
 ## Summary
- ![This is an image]()
+
+
+- The query to create this mentorship table is:
+SELECT COUNT(emp_no), title
+FROM mentorship_eligibility
+GROUP BY title
+ORDER BY count DESC;
+
+ ![This is an image](https://github.com/NadaAdem/-Pewlett-Hackard-Analysis/blob/main/Resources/mentorship_eligibility_COUNT.png)
+ 
