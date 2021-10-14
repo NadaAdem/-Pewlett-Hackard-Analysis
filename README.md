@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-The purpose of this project is to analyze the employment database of  'Pewlett-Hackard' to find the number of retiring employees by position. To prepare for the incoming waves of retirement, it is suggested to create a mentorship program to train the next generation of employees. 
+The purpose of this project is to analyze the employment database of  'Pewlett-Hackard' to find the number of retiring employees by position. To prepare for the incoming waves of retirement, it is suggested to create a mentorship program to train the  employees for new postions . 
 
 
 
